@@ -1,5 +1,5 @@
 <template>
-  <button class="button is-primary" @click="onClick">
+  <button class="button is-warning" @click="onClick">
     <slot></slot>
   </button>
 </template>
