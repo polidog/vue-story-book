@@ -4,7 +4,8 @@ import App from './App.vue'
 Vue.config.productionTip = false
 
 import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
+import '@/assets/scss/app.scss'
+
 Vue.use(Buefy)
 
 new Vue({

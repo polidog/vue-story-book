@@ -3,7 +3,7 @@ import { configure } from '@storybook/vue'
 
 import Vue from 'vue'
 import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
+import '@/assets/scss/app.scss'
 Vue.use(Buefy)
 
 
